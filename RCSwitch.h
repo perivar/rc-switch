@@ -112,8 +112,8 @@ class RCSwitch
      */
     struct HighLow
     {
-        uint16_t high;
-        uint16_t low;
+        float high;
+        float low;
     };
 
     /**

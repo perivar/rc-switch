@@ -100,7 +100,7 @@ static const RCSwitch::Protocol PROGMEM proto[] = {
     {13, 68, 100, {0, 0}, {3, 8}, {8, 3}, {3, 100}, false},       // protocol 13 (Shi Qiong) - 1+32 bit protocol. The first bit is a leading "1"  
     {14, 26, 50, {7, 8}, {8, 15}, {15, 8}, {15, 340}, false },    // protocol 14 (Mertik Maxitrol G6R-H4T1)	
     {15, 42, 20, {0, 0}, {40, 20}, {20, 40}, {340, 20}, true },   // protocol 15 (Ferport TAC4KR)
-    {16, 132, 50, {99, 13}, {5, 13}, {11, 6}, {11, 101}, false }, // protocol 16 (AC123)	
+    {16, 132, 50, {100, 12}, {5.6f, 12}, {12, 5.6f}, {12, 100}, false }, // protocol 16 (AC123)
 };
 
 enum
